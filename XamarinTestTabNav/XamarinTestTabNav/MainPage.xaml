@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:XamarinTestTabNav"
+            x:Class="XamarinTestTabNav.MainPage">
+
+  <NavigationPage Title="Tab1">
+    <x:Arguments>
+      <local:ViewA />
+    </x:Arguments>
+  </NavigationPage>
+
+  <NavigationPage Title="Tab2">
+    <x:Arguments>
+      <local:ViewB />
+    </x:Arguments>
+  </NavigationPage>
+
+</TabbedPage>
